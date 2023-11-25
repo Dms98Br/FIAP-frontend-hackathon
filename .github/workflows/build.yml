@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: 'us-east-1'
   ECR_REPOSITORY: 'react-app-repository'
-  DOCKER_IMAGE: 'react_hack:dev'
+  DOCKER_IMAGE: 'react-app:latest'
 
 jobs:
   build-and-deploy:
